@@ -1,8 +1,10 @@
 (function(){
     var runScript = function() {
         if (!document.querySelector('video.html5-main-video')) return;
+        if (document.querySelector('.nss-button')) return;
         var btn = document.createElement('button');
         btn.classList.add('ytp-button');
+        btn.classList.add('nss-button');
         btn.style.lineHeight = '36px';
         btn.style.textAlign = 'center';
         btn.style.verticalAlign = 'top';
