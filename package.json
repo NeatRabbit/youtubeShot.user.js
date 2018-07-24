@@ -1,0 +1,14 @@
+{
+  "name": "youtubeshot.user.js",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "https://github.com/NeatRabbit/youtubeShot.user.js.git",
+  "author": "gwangyeom-kim <gwangyeom-kim@nts-corp.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "fs-extra": "^7.0.0",
+    "gaze": "^1.1.3",
+    "maid": "^0.3.0",
+    "uglify-js": "^3.4.5"
+  }
+}
