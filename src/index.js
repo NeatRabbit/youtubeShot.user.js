@@ -1,6 +1,5 @@
 (function(){
     var runScript = function() {
-        console.log(document.querySelector('video.html5-main-video'));
         if (!document.querySelector('video.html5-main-video')) return;
         var btn = document.createElement('button');
         btn.classList.add('ytp-button');
