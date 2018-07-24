@@ -3,7 +3,7 @@ youtube screenshot user script
 
 ## Install UserScript
 1. Install [Tampermonkey](https://tampermonkey.net)
-2. Open link: https://github.com/NeatRabbit/youtubeShot.user.js/raw/master/dist/index.js
+2. Open link: https://github.com/NeatRabbit/youtubeShot.user.js/raw/master/dist/index.user.js
 
 ## Use
 1. Watch youtube

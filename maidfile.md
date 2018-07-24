@@ -31,7 +31,7 @@ module.exports = () => {
         .then((jsString) => {
             return uglifyJS.minify(jsString.toString()).code;
         }).then((minifiedString) => {
-            return fs.outputFile('dist/youtubeShot.user.js', metaString+'\n'+minifiedString);
+            return fs.outputFile('dist/index.user.js', metaString+'\n'+minifiedString);
         })
 };
 ```
