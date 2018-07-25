@@ -1,6 +1,6 @@
 {
   "name": "youtubeshot.user.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "src/index.js",
   "repository": "https://github.com/NeatRabbit/youtubeShot.user.js.git",
   "author": "gwangyeom-kim <gwangyeom-kim@nts-corp.com>",

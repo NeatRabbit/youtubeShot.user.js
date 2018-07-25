@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         youtube Shot
 // @namespace    http://tampermonkey.net/
-// @version      0.0.2
+// @version      0.0.3
 // @description  screenshot youtube
 // @author       https://github.com/NeatRabbit/youtubeShot.user.js
 // @match        https://www.youtube.com/*
