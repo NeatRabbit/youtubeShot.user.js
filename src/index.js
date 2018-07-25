@@ -1,5 +1,12 @@
 (function(){
-    var runScript = function() {
+    var runScript = function(e) {
+        if (location.pathname.indexOf('embed') > -1 && e.type !== 'click') {
+            document.getElementById('player').addEventListener('click', runScript);
+            return;
+        }
+        if (e.type === 'click') {
+            document.getElementById('player').removeEventListener('click', runScript);
+        }
         if (!document.querySelector('video.html5-main-video')) return;
         if (document.querySelector('.nss-button')) return;
         var btn = document.createElement('button');
@@ -31,6 +38,6 @@
         }
         document.querySelector('.ytp-right-controls').appendChild(btn);
     }
-    document.addEventListener('yt-navigate-finish', runScript);    
+    document.addEventListener('yt-navigate-finish', runScript);
     document.addEventListener('DOMContentLoaded', runScript);
 })();
